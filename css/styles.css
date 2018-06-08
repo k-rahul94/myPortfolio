@@ -125,3 +125,57 @@ body, html {
         height: 120px;
     }
 }
+
+.tilePadWide {
+    padding: 40px;
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.regTitle {
+    /*font-family: "Gravity-Regular";*/
+    letter-spacing: 5px;
+}
+
+.textCent, .cenX {
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.tileDesc {
+    text-align: center;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Gravity-Regular";
+}
+
+.centerLinks {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.centerLinks .brText {
+    display: inline-block;
+    color: #42536d;
+}
+
+.centerLinks a {
+    color: gray;
+    transition: 0.2s ease-in-out;
+}
+
+.centerLinks a:hover {
+    color: white;
+    transition: 0.2s ease-in-out;
+}
