@@ -179,3 +179,39 @@ body, html {
     color: white;
     transition: 0.2s ease-in-out;
 }
+
+.footer {
+    background-color: #282828;
+    padding: 0px;
+}
+
+.extraSpace {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.centerLinks {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.socialIcons li a img {
+    vertical-align: middle;
+    padding: 5px;
+    height: 50px;
+}
+
+.footerText {
+    /* font-family: "Gravity-Regular"; */
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+.subP {
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+}
