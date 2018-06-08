@@ -10,7 +10,7 @@ body, html {
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
-    opacity: 0.70;
+    /*opacity: 0.70;*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,8 +57,8 @@ body, html {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #000;
-    font-size: 27px;
+    color: #fff;
+    font-size: 37px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
@@ -76,5 +76,52 @@ body, html {
 @media(max-width:568px) {
     .pimg1, .pimg2, .pimg3 {
         background-attachment: scroll;
+    }
+}
+
+.about {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.circleImg {
+    border-radius: 50%;
+    height: 200px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+}
+
+.pad20 {
+    padding: 20px;
+    padding-bottom: 4px;
+}
+
+.rowPad {
+    padding: 40px;
+}
+
+@media (min-width: 768px) { 
+    .aboutMe {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .rowPad {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .circleImg {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 120px;
     }
 }
